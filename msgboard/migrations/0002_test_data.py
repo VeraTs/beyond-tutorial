@@ -1,5 +1,6 @@
 from django.db import migrations, transaction
 
+
 class Migration(migrations.Migration):
 
     dependencies = [
@@ -22,5 +23,3 @@ class Migration(migrations.Migration):
         migrations.RunPython(generate_data),
 
     ]
-
-    
