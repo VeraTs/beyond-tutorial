@@ -133,3 +133,7 @@ dmypy.json
 
 # nohup
 nohup.*
+
+#msgboard db
+*.sqlite3
+db.*
